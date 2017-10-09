@@ -42,6 +42,10 @@ body {
 
 }
 
+ .description-text {
+   padding: 40px 10px;
+ }
+
 @media (min-width: 576px) {
 .jumbotron {
     padding: 6rem 4rem;
