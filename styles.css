@@ -1,1 +1,67 @@
-/* Your CSS code goes in this file. */
+/* Hi! */
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+    padding: 6rem 2rem;
+    background: #343a40!important;
+    border-radius: 0;
+  }
+
+.background-img {
+  width: 100%;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #16d4d4;
+    border-color: #16d4d4;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #14adad;
+    border-color: #14adad;
+}
+
+.logo {
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.subtext {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 20px 0px;
+
+}
+
+@media (min-width: 576px) {
+.jumbotron {
+    padding: 6rem 4rem;
+  }
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+.background-img {
+  margin-top: -50px;
+}
+}
+
+@media (max-width: 576px) {
+.jumbotron {
+    padding: 6rem 2rem;
+  }
+
+  .background-img {
+    margin-top: 50px;
+  }
+}
