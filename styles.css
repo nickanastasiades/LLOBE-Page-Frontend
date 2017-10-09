@@ -3,9 +3,13 @@ body {
   padding-top: 3.5rem;
 }
 
+.display-3 {
+  font-weight: 100;
+}
+
 .jumbotron {
     padding: 6rem 2rem;
-    background: #343a40!important;
+    background: #343a40;
     border-radius: 0;
   }
 
@@ -29,6 +33,19 @@ body {
     border-color: #14adad;
 }
 
+.btn-outline-primary {
+    color: #16d4d4;
+    background-color: transparent;
+    background-image: none;
+    border-color: #16d4d4;
+  }
+
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #16d4d4;
+    border-color: #16d4d4;
+  }
+
 .logo {
     width: 40px;
     margin-right: 20px;
@@ -38,13 +55,28 @@ body {
 .subtext {
   font-weight: 300;
   font-size: 18px;
-  margin: 20px 0px;
+  margin: 20px 0px 35px 0px;
 
 }
 
  .description-text {
    padding: 40px 10px;
  }
+
+.services-bg {
+  background: #343a40 url("images/background-services.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.contact-bg {
+  background: #343a40 url("images/background-contact.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.btn-huge {
+  font-size: 30px;
+  padding: 20px 60px;
+}
 
 @media (min-width: 576px) {
 .jumbotron {
